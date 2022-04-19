@@ -1,0 +1,152 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-segundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;/*ou pode ser 1fr 1fr*/
+    align-items: center;
+}
+
+.principal{
+    background-image: url("img/Background.svg");/*no css é somente ilustrativa ja no html e qd precisamos mostrar pro usuário mesmo, e podemos colocar um texto alternativo*/
+    height: 100vh; /*mesma coisa que 100%*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.principal_caixa{
+    margin: 0 6em;
+}
+
+.principal_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.principal_imagem{
+    margin: 1em 0 2em 0;
+}
+
+.principal_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.principal_aviso{
+    font-size: 12px;
+    color: var(--cinza-segundario);
+}
+
+.secundario{
+    margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%; 
+}
+
+.secundario_descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.secundario_descricao_texto{
+    color: var(--cinza-segundario);
+}
+
+.terceiro{
+    margin-top: 10em;
+    margin-bottom: 10em;/*tive que colocar pois não estava dando os espaçamento igual do vídeo, sera que é pq estou fazendo dentro do main?*/
+}
+
+.terceiro_descricao{
+    padding: 2em;
+}
+
+.terceiro_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.quarto{
+    margin-bottom: 10em;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;/*tira os pontinhos da lista*/
+    margin: 5em 0;
+}
+
+.dispositivos_lista_item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: space-evenly;    
+    list-style-type: none;
+    margin-top: 1em;
+    /*margin-bottom: 1.5em;*/ 
+}
+
+.rodape_lista_link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rodape_texto{
+    margin: 2em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
