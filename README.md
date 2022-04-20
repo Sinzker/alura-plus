@@ -1,3 +1,12 @@
+<div align='center'>
+  <figure>
+    <a href='https://alura-plus-bay.vercel.app/' target='_blank'>
+      <img src='https://github.com/Sinzker/alura-plus/blob/main/img/print.png'>
+    </a>
+    <figcaption>Para visualizar o site completo basta clicar na imagem acima.</figcaption>
+  </figure>
+</div>
+
 # Alura-Plus
 :construction: Projeto em construção :construction:
 
@@ -10,9 +19,9 @@
 
 <h3>:hammer:Tecnologias utilizadas:</h3>
 
-<p>:black_circle:Figma para auxiliar na construção da página;</p>
-<p>:black_circle:HTML5;</p>
-<p>:black_circle:CSS3;</p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <p>:black_circle:Flebox;</p>
 <p>:black_circle:Grid CSS;</p>
 <p>:black_circle:Vercel para a hospedagem no site.</p>
+<p>:black_circle:Figma para auxiliar na construção da página;</p>
