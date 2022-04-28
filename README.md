@@ -8,7 +8,7 @@
 </div>
 
 # Alura-Plus
-:construction: Projeto em construção :construction:
+:construction: Projeto em construção olaa :construction:
 
 <h3>:page_facing_up:Visão geral do projeto:</h3>
 
