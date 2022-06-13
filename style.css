@@ -205,6 +205,10 @@ body{
     }
 
     .rodape_lista_link a{
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    .rodape_texto{
+        font-size: 09px;
     }
 }
